@@ -1,22 +1,30 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import { div } from 'framer-motion/client'
+import Herosection from './components/Herosection'
+import Project from './components/Project'
+import Skills from './components/Skills'
+import Bio from './components/Bio'
+import Education from './components/Education'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
-    // <main className="overflow-x-hidden bg-block tracking-tighter text-gray-200 antialiased">
-    //   <Navbar></Navbar>
-    // </main>
-    <div className="flex flex-col gap-10 overflow-x-hidden">
-      <section className='grid grid-cols-3 p-10 gap-10'>
-        <div className="bg-slate-800 aspect rounded-lg justify-center flex items-center gap-10"></div>
-        <div className="bg-slate-800 aspect rounded-lg justify-center flex items-center gap-10"></div>
-        <div className="bg-slate-800 aspect rounded-lg justify-center flex items-center gap-10"></div>
-        <div className="bg-slate-800 aspect rounded-lg justify-center flex items-center gap-10"></div>
-        <div className="bg-slate-800 aspect rounded-lg justify-center flex items-center gap-10"></div>
-        <div className="bg-slate-800 aspect rounded-lg justify-center flex items-center gap-10"></div>
-      </section>
-    </div>
+    <div className="relative h-full overflow-y-auto antialiased">
+      <div className="fixed inset-0 bg-fixed bg-cover bg-center bg-img" ></div>
+      <div className="relative z-10 flex flex-col
+      items-center p-4 space-y-8
+      container mx-auto">
+        <Navbar></Navbar>
+  <Herosection></Herosection>
+  <Project></Project>
+  <Bio></Bio>
+  <Skills></Skills>
+  <Education></Education>
+  <Contact></Contact>
+  <Footer></Footer>
+      </div>
+ </div>
   )
 }
 
