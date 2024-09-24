@@ -2,6 +2,7 @@ import React from 'react'
 import {BIO} from '../constants'
 import { p } from 'framer-motion/client'
 import {motion} from "framer-motion";
+
 const Bio = () => {
   return (
     <section className="flex max-w-4xl flex-col gap-12 pt-20" id="bio">
