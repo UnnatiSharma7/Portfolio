@@ -1,12 +1,12 @@
 import React from 'react'
 import {PROFILE} from "../constants"
-import profilePic from "../assets/robertButcher1.jpg"
+import profilePic from "../assets/UnnatiPro.jpeg"
 import { section } from 'framer-motion/client'
 import {motion} from "framer-motion";
 
 const Herosection = () => {
   return (
-    <section className="flex min-h-full flex-wrap mt-10 items-center">
+    <section className="flex min-h-full flex-wrap mt-10 items-center" id="about">
         <motion.div
         initial={{opacity:0,x:-50}}
         animate={{opacity:1,x:0}}

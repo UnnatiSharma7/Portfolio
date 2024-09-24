@@ -8,11 +8,11 @@ import {
   } from "react-icons/fa6";
   
   import { RiReactjsLine } from "react-icons/ri";
-  import { TbBrandNextjs } from "react-icons/tb";
+  import { RiTailwindCssFill } from "react-icons/ri";
   import { SiMongodb } from "react-icons/si";
-  import { DiRedis } from "react-icons/di";
+  import { SiMysql } from "react-icons/si";
   import { FaNodeJs } from "react-icons/fa";
-  import { BiLogoPostgresql } from "react-icons/bi";
+  import { RiJavascriptFill } from "react-icons/ri";
   
   import image1 from "../assets/project1.jpeg";
   import image2 from "../assets/project2.jpeg";
@@ -20,8 +20,6 @@ import {
   import image4 from "../assets/project4.jpeg";
   import image5 from "../assets/project5.jpeg";
   import image6 from "../assets/project6.jpeg";
-  import image7 from "../assets/project7.jpeg";
-  import image8 from "../assets/project8.jpeg";
   
   import user1 from "../assets/profile-pictures/user1.jpg";
   import user2 from "../assets/profile-pictures/user2.jpg";
@@ -37,10 +35,6 @@ import {
     { label: "Contact", href: "#contact" },
   ];
   
-  export const PROFILE = {
-    name: "Unnati Sharma",
-    info: "Full-stack developer with a flair for graphic design.",
-  };
   
   export const ABOUT = {
     
@@ -49,45 +43,26 @@ import {
       text2:"Hello! I'm Robert Butcher, a full-stack developer with a flair for graphic design. I thrive on crafting web experiences that are not only visually stunning but also highly functional and user-friendly. My passion for detail ensures that every project is polished and professional. Beyond coding, I'm an avid explorer of new cultures and cuisines. My curiosity drives me to stay on the cutting edge of technology and design trends, bringing innovative and practical solutions to every challenge. Whether I'm developing a sleek website or diving into the latest tech, I am dedicated to delivering excellence in every project.",
   };
   
-  export const EXPERIENCES = [
-    {
-      title: "Lead Frontend Developer",
-      company: "Innovative Tech Solutions",
-      duration: "July 2020 - Present",
-      description:
-        "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
-    },
-    {
-      title: "Frontend Engineer",
-      company: "Digital Creations",
-      duration: "February 2016 - June 2020",
-      description:
-        "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
-    },
-    {
-      title: "Junior Web Developer",
-      company: "Bright Future Technologies",
-      duration: "August 2014 - January 2016",
-      description:
-        "In my role as a Junior Web Developer, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
-    },
-  ];
-  
+  export const PROFILE = {
+    name: "Robert Butcher",
+    info: "Full-stack developer with a flair for graphic design.",
+  };
+
   export const EDUCATION = [
     {
-      degree: "Master of Science in Computer Science",
-      institution: "Stanford University",
-      duration: "September 2012 - June 2014",
+      degree: "Bachelor of Technology in Computer Science & Engineering",
+      institution: "Rustamji Institute of Technology, BSF Academy",
+      duration: "October 2021-2025",
       description:
-        "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
+        "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript. Completed a senior project on developing an Job-portal platform.",
     },
     {
-      degree: "Bachelor of Science in Information Technology",
-      institution: "University of California, Berkeley",
-      duration: "September 2008 - June 2012",
+      degree: "PCM",
+    institution: "Sister Nivedita Higher Secondary School",
+      duration: "October 2019-2020",
       description:
-        "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
-    },
+        "Secured 2nd Rank in district Gwalior with 95%.",
+    }
   ];
 
 
@@ -127,22 +102,22 @@ import {
         "A blogging platform developed with Ruby on Rails and PostgreSQL.",
       image: image6,
     },
-    {  id:7,
-      title: "Fitness Tracker",
-      subtitle: "A fitness tracking app created using Flutter and Firebase.",
-      image: image7,
-    },
-    {  id:8,
-      title: "Recipe Finder",
-      subtitle: "A recipe finder application developed with Angular and Node.js.",
-      image: image8,
-    },
+   
   ];
   
   export const BIO = [
-    "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-    "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-    "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+    "Hello! I'm Unnati Sharma, a Computer Science Engineering undergraduate from RJIT, Taknepur. I have a strong passion for technology and innovation, which has driven me to work on various projects and actively participate in extracurricular activities throughout my academic journey.",
+
+   " One of the key projects I worked on is a Job Search Portal. This project is designed to connect job seekers with employers efficiently. The portal includes features such as advanced search filters, resume uploads, job recommendations, and an intuitive user interface. It is built using a combination of front-end technologies like HTML, CSS, JavaScript, and React, and back-end technologies including Node.js and MongoDB. The goal was to create a seamless and user-friendly platform that helps users find job opportunities that best match their skills and preferences.",
+    
+   " In addition to my academic projects, I have been an active member of the Innovators Club at my college. In this role, I have conducted several lectures on front-end technologies for junior students, helping them understand and apply the latest trends and best practices in web development.",
+    
+    "Furthermore, I have had the opportunity to be a guest lecturer at the BSF Academy, where I educated BSF personnel on the importance of hackathons. I emphasized how participating in hackathons can enhance problem-solving skills, encourage teamwork, and foster innovative thinking, which are crucial in their professional development.",
+    
+   " Academically, I have also achieved notable success. I secured the 2nd rank in my district, Gwalior, in my 12th board examination. At RJIT, I am proud to be among the top performers in the CSE wing, reflecting my dedication and commitment to my studies.",
+    
+    "Outside of academics and technology, I have a deep interest in reading the Shrimad Bhagavad Gita and practicing meditation. These hobbies help me maintain a balanced and focused mindset, providing a source of spiritual growth and inner peace.",
+    "Overall, I am a proactive and enthusiastic individual, constantly seeking to learn and grow in the field of computer science and technology. My experiences have equipped me with a solid foundation in both theoretical knowledge and practical application, preparing me well for future challenges and opportunities in the tech industry."
   ];
 
   export const SKILLS = [
@@ -152,8 +127,8 @@ import {
       experience: "2+ years",
     },
     {
-      icon: <TbBrandNextjs className="text-4xl lg:text-6xl text-white" />,
-      name: "Next.js",
+      icon: <RiTailwindCssFill className="text-4xl lg:text-6xl text-white" />,
+      name: "Tailwind CSS",
       experience: "1+ year",
     },
     {
@@ -162,8 +137,8 @@ import {
       experience: "1.5+ years",
     },
     {
-      icon: <DiRedis className="text-4xl lg:text-6xl text-red-600" />,
-      name: "Redis",
+      icon: <SiMysql className="text-4xl lg:text-6xl text-red-600" />,
+      name: "MySQL",
       experience: "1+ year",
     },
     {
@@ -172,8 +147,8 @@ import {
       experience: "2+ years",
     },
     {
-      icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-700" />,
-      name: "PostgreSQL",
+      icon: <RiJavascriptFill className="text-4xl lg:text-6xl text-sky-700" />,
+      name: "JavaScript",
       experience: "1+ year",
     },
   ];
