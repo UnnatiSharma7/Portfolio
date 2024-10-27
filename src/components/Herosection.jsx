@@ -1,5 +1,4 @@
 import React from 'react'
-import {PROFILE} from "../constants"
 import profilePic from "../assets/UnnatiPro.jpeg"
 import { section } from 'framer-motion/client'
 import {motion} from "framer-motion";

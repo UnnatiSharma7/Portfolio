@@ -37,7 +37,7 @@ const Navbar = () => {
   return (
   <div>
     <nav
-    className="fixed left-0 right-0 top-4 z-50">
+    className="fixed left-0 right-0 top-4 z-50 ">
     {/*Desktop Menu*/}
   <div className="mx-auto hidden max-w-2xl
   items-center justify-center rounded-lg
@@ -45,15 +45,15 @@ const Navbar = () => {
   py-3 backdrop-blur-lg lg:flex">
     <div className="flex items-center
     justify-between gap-6">
-      <div>
+      {/* <div>
         <a href="#">
           <img src={logo2}  
           width={150}
           alt="" />
         </a>
-      </div>
+      </div> */}
       <div>
-        <ul className="flex
+        <ul className="flex 
         items-center gap-4">
           {NAVIGATION_LINKS.map((item,index)=>(
             <li key={index}>
