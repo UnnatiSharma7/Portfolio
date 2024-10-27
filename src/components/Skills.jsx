@@ -13,17 +13,6 @@ const containerVariants={
   },
 }
 
-const itemVariants={
-  hidden:{
-    opacity:0,x:-20
-  },
-  visible:{
-    opacity:1,x:0,transtion:{
-      duration:0.5
-    },
-  },
-}
-
 const Skills = () => {
   return (
     <div className="container mx-auto" id="skills">

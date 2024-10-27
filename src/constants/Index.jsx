@@ -58,7 +58,7 @@ export const PROJECTS = [
   },
   {  id:3,
     title: "Personal Porfolio",
-    subtitle: "A front-based project utilising tailwind CSS and framer-motion for creating a beautiful UI",
+    subtitle: "A front-end project utilising tailwind CSS and framer-motion for creating a beautiful UI",
     image: image3,
   },
  

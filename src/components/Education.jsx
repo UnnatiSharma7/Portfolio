@@ -1,4 +1,3 @@
-import { div } from 'framer-motion/client'
 import React from 'react'
 import {EDUCATION} from '../constants'
 import {motion} from 'framer-motion'

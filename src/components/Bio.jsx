@@ -1,6 +1,5 @@
 import React from 'react'
 import {BIO} from '../constants'
-import { p } from 'framer-motion/client'
 import {motion} from "framer-motion";
 
 const Bio = () => {

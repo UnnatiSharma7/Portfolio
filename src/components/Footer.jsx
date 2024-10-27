@@ -1,7 +1,6 @@
 import React from 'react'
 import logo from '../assets/unnati2.png'
 import { SOCIAL_MEDIA_LINKS } from '../constants'
-import { a } from 'framer-motion/client'
 import {motion} from 'framer-motion'
 
 

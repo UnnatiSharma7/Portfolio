@@ -1,6 +1,5 @@
 import React from 'react'
 import {PROJECTS} from '../constants'
-import { div } from 'framer-motion/client'
 import { MdArrowOutward } from 'react-icons/md'
 import {motion} from "framer-motion"
 

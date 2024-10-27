@@ -1,11 +1,9 @@
-import { div, li, nav, ul } from 'framer-motion/client'
 import React from 'react'
 import logo2 from '../assets/unnati2.png'
 import {NAVIGATION_LINKS} from '../constants'
-import {Menu,X} from 'lucide-react'
 import {useState} from "react";
 import {FaTimes,FaBars} from 'react-icons/fa'
-import {motion} from 'framer-motion'
+
 
 const Navbar = () => {
     const [mobileDrawerOpen,setMobileDrawerOpen]= useState(false);
@@ -13,10 +11,6 @@ const Navbar = () => {
         setMobileDrawerOpen(!mobileDrawerOpen);
     };
 
-    const variants = {
-      true: { opacity: 1, x: 0 },
-      false: { opacity: 0, x: "-100%" },
-    }
 
     const handleLinkClick=(e,href)=>{
       e.preventDefault();
@@ -45,13 +39,7 @@ const Navbar = () => {
   py-3 backdrop-blur-lg lg:flex">
     <div className="flex items-center
     justify-between gap-6">
-      {/* <div>
-        <a href="#">
-          <img src={logo2}  
-          width={150}
-          alt="" />
-        </a>
-      </div> */}
+
       <div>
         <ul className="flex 
         items-center gap-4">
