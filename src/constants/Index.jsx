@@ -31,7 +31,7 @@ export const EDUCATION = [
     institution: "Rustamji Institute of Technology, BSF Academy",
     duration: "October 2021-2025",
     description:
-      "Focused on web development, programming languages. Actively involved in coding clubs, where I developed several web applications using HTML, CSS, JavaScript. Completed several projects on web development.",
+      "Focused on web development, C++. Actively involved in college clubs, where I developed several web applications using HTML, CSS, JavaScript.My current CGPA is 8.49 ",
   },
   {
     degree: "PCM",
@@ -66,8 +66,6 @@ export const PROJECTS = [
 
 export const BIO = [
   "Hello! I'm Unnati Sharma, a Computer Science Engineering undergraduate from RJIT, Taknepur. I have a strong passion for technology and innovation, which has driven me to work on various projects and actively participate in extracurricular activities throughout my academic journey.",
-
- " One of the key projects I worked on is a Job Search Portal. This project is designed to connect job seekers with employers efficiently. The portal includes features such as advanced search filters, resume uploads, job recommendations, and an intuitive user interface. It is built using a combination of front-end technologies like HTML, CSS, JavaScript, and React, and back-end technologies including Node.js and MongoDB. The goal was to create a seamless and user-friendly platform that helps users find job opportunities that best match their skills and preferences.",
   
  " In addition to my academic projects, I have been an active member of the Innovators Club at my college. In this role, I have conducted several lectures on front-end technologies for junior students, helping them understand and apply the latest trends and best practices in web development.",
   
