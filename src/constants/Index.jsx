@@ -11,8 +11,8 @@ import { SiMysql } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
 
-import image1 from "../assets/project1.jpeg";
-import image2 from "../assets/project2.jpeg";
+import image1 from "../assets/chatAI.png";
+import image2 from "../assets/jobPortal.png";
 import image3 from "../assets/project3.jpeg";
 
 
