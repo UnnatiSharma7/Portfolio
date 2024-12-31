@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePic from "../assets/UnnatiPro.jpeg"
+import profilePic from "../assets/Unnati.jpg"
 import {motion} from "framer-motion";
 
 const Herosection = () => {

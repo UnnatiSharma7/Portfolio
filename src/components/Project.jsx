@@ -21,24 +21,24 @@ const Project = () => {
                 transition={{duration:0.5}}
                 whileHover={{scale:1.05}}
                  key={project.id} className="group relative
-                overflow-hidden rounded-3xl">
+                overflow-hidden rounded-3xl border-white">
                     <motion.img
                     whileHover={{scale:1.1}}
                      src={project.image} 
                     alt={project.name}
-                    className="h-full w-full object-cover
+                    className="border-white object-cover
                     transition-transform duration-500
                     group-hover:scale-110" />
                     <motion.div 
                     initial={{opacity:0}}
                     whileHover={{opacity:1}}
                     transition={{duration:0.5}}
-                    className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0
+                    className="absolute inset-0 flex flex-col items-center justify-center text-blue-700 opacity-0
                      backdrop-blur transition-opacity duration-500 group-hover:opacity-100">
-                        <h3 className="mb-2 mt-4 text-xl">{project.title}</h3>
-                        <p className="mb-12 p-4">{project.subtitle}</p>
-                        <a href="#" target="_blank" rel="noopener noreferrer"
-                        className="rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300" >
+                        <h3 className="text-xl display-center">{project.title}</h3>
+                        <p className=" display-center p-3">{project.subtitle}</p>
+                        <a href={`https://github.com/UnnatiSharma7/${project.title}`} target="_blank" rel="noopener noreferrer"
+                        className="rounded-full bg-white px-4 mt-4 text-black hover:bg-gray-300" >
                             <div className="flex items-center" >
                                 <span>View on Github</span>
                                 <MdArrowOutward></MdArrowOutward>

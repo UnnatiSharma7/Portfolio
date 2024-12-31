@@ -11,10 +11,8 @@ import { SiMysql } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
 
-import image1 from "../assets/chatAI.png";
-import image2 from "../assets/jobPortal.png";
-import image3 from "../assets/project3.jpeg";
-
+import image1 from "../assets/jobPortal.png";
+import image2 from "../assets/chatAI.png";
 
 export const NAVIGATION_LINKS = [
   { label: "About", href: "#about" },
@@ -51,15 +49,10 @@ export const PROJECTS = [
     image: image1,
   },
   {  id:2,
-    title: "Chat AI",
+    title: "Chat-AI",
     subtitle:
       "It's a clone of Chat-GPT built using MERN stack and I have utilized Gemini AI in it.",
     image: image2,
-  },
-  {  id:3,
-    title: "Personal Porfolio",
-    subtitle: "A front-end project utilising tailwind CSS and framer-motion for creating a beautiful UI",
-    image: image3,
   },
  
 ];
