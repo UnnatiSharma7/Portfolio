@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePic from "../assets/Unnati.jpg"
+import profilePic from "../assets/UnnatiS.jpg"
 import {motion} from "framer-motion";
 
 const Herosection = () => {
@@ -20,6 +20,8 @@ const Herosection = () => {
            <p className="mb-8 p-2 text-xl">
         I’m, a passionate Fullstack Developer with a knack for turning ideas into reality through code. With expertise in HTML, CSS, JavaScript, and the MERN stack, I craft dynamic, user-focused applications that bring value to every project I undertake. Whether it's designing intuitive interfaces or building scalable backend systems, I love solving problems and pushing the boundaries of what's possible in web development. Let's create something amazing together!
            </p>
+           <a href="" className="bg-white text-black p-4 rounded-2xl
+           transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-200 duration-300 ...">Get Resume</a>
         </motion.div>
         <motion.div
         initial={{opacity:0, scale:0.8}}
@@ -33,7 +35,7 @@ const Herosection = () => {
             transition={{duration:1}}
             src={profilePic} 
             width={550} height={550} alt="not me" 
-            className="rounded-3xl" />
+            className="rounded-3xl shadow-2xl" />
         </div>
         </motion.div>
     </section>
