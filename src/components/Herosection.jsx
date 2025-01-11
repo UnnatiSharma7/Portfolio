@@ -20,7 +20,7 @@ const Herosection = () => {
            <p className="mb-8 p-2 text-xl">
         I’m, a passionate Fullstack Developer with a knack for turning ideas into reality through code. With expertise in HTML, CSS, JavaScript, and the MERN stack, I craft dynamic, user-focused applications that bring value to every project I undertake. Whether it's designing intuitive interfaces or building scalable backend systems, I love solving problems and pushing the boundaries of what's possible in web development. Let's create something amazing together!
            </p>
-           <a href="" className="bg-white text-black p-4 rounded-2xl
+           <a href="https://bit.ly/42sFLCb" target='_blank' className="bg-white text-black p-4 rounded-2xl
            transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-200 duration-300 ...">Get Resume</a>
         </motion.div>
         <motion.div
