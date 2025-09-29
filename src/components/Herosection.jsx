@@ -1,4 +1,3 @@
-import React from 'react'
 import profilePic from "../assets/UnnatiS.jpg"
 import {motion} from "framer-motion";
 

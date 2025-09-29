@@ -1,5 +1,4 @@
-import React from 'react'
-import {PROJECTS} from '../constants'
+import {PROJECTS} from '../constants/Index.jsx'
 import { MdArrowOutward } from 'react-icons/md'
 import {motion} from "framer-motion"
 
