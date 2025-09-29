@@ -18,8 +18,8 @@ const Education = () => {
             transition-transform duration-500
                     group-hover:scale-110 
                     rounded-lg">
-                <h3 className="text-xl font-semibold">{edu.degree}</h3>
-                <p className="text-lg">{edu.institution}</p>
+                <h3 className="text-lg font-semibold">{edu.degree}</h3>
+                <p className="text-md">{edu.institution}</p>
                 <p className="text-sm text-stone-300">{edu.duration}</p>
                 <p className="mt-2">{edu.description}</p>
             </motion.div>

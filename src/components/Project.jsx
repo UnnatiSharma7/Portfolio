@@ -1,5 +1,5 @@
 import {PROJECTS} from '../constants/Index.jsx'
-import { MdArrowOutward } from 'react-icons/md'
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import {motion} from "framer-motion"
 
 const Project = () => {
@@ -10,7 +10,7 @@ const Project = () => {
         whileInView={{opacity:1,y:0}}
         transition={{duration:0.8}}
         className="mb-8 text-center text-3xl
-         lg:text-4xl">Projects</motion.h2>
+         lg:text-3xl">Projects</motion.h2>
         <div className="grid grid-cols-1 gap-4 
         md:grid-cols-2 lg:grid-cols-3">
              {PROJECTS.map((project)=>(
@@ -19,10 +19,10 @@ const Project = () => {
                 whileInView={{opacity:1,scale:1}}
                 transition={{duration:0.5}}
                 whileHover={{scale:1.05}}
-                 key={project.id} className="group relative
+                key={project.id} className="group relative
                 overflow-hidden rounded-3xl border-white">
                     <motion.img
-                    whileHover={{scale:1.1}}
+                    whileHover={{scale:1.0}}
                      src={project.image} 
                     alt={project.name}
                     className="border-white object-cover
@@ -32,17 +32,30 @@ const Project = () => {
                     initial={{opacity:0}}
                     whileHover={{opacity:1}}
                     transition={{duration:0.5}}
-                    className="absolute inset-0 flex flex-col items-center justify-center text-blue-700 opacity-0
-                     backdrop-blur transition-opacity duration-500 group-hover:opacity-100">
-                        <h3 className="text-xl display-center">{project.title}</h3>
-                        <p className=" display-center p-3">{project.subtitle}</p>
-                        <a href={`https://github.com/UnnatiSharma7/${project.title}`} target="_blank" rel="noopener noreferrer"
-                        className="rounded-full bg-white px-4 mt-4 text-black hover:bg-gray-300" >
-                            <div className="flex items-center" >
-                                <span>View on Github</span>
-                                <MdArrowOutward></MdArrowOutward>
-                            </div>
-                        </a>
+                    className="absolute inset-0 flex flex-col items-center justify-center text-purple-700 opacity-0
+                     backdrop-blur transition-opacity duration-250 group-hover:opacity-100">
+                        <span className="text-xl display-center">{project.title}</span>
+            <div className="flex space-x-3 mt-3">
+            {/* GitHub Button */}
+            <a
+              href={project.gitLink}  // pass GitHub URL here
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-7 h-7 flex items-center justify-center rounded-full bg-white text-black hover:bg-gray-300 transition"
+            >
+            <FaGithub size={12} color="voilet" />
+            </a>
+
+            {/* Deployed Project Button */}
+            <a
+            href={project.link}  // pass deployed project URL here
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-7 h-7 flex items-center justify-center rounded-full bg-white text-black hover:bg-gray-300 transition"
+            >
+            <FaExternalLinkAlt size={12} color="voilet"/>
+          </a>
+          </div>
                      </motion.div>
                 </motion.div>
              ))}

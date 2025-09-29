@@ -65,7 +65,7 @@ const Contact = () => {
     <div className="p-4 lg:w-3/4 " id="contact">
         <Toaster></Toaster>
         <h2 className="my-8 text-center text-4xl font-semibold
-        tracking-tighter">Let `&apos;` s Connect</h2>
+        tracking-tighter">Let &apos;s Connect</h2>
         <motion.form
         initial={{opacity:0}}
         whileInView={{opacity:1}}

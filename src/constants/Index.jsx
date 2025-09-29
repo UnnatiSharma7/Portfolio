@@ -10,9 +10,11 @@ import { SiMongodb } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
+import { SiCplusplus } from "react-icons/si";
 
-import image1 from "../assets/jobPortal.png";
+import image1 from "../assets/colouredCow.png";
 import image2 from "../assets/chatAI.png";
+import image3 from "../assets/TodoApp.png";
 
 export const NAVIGATION_LINKS = [
   { label: "About", href: "#about" },
@@ -29,45 +31,54 @@ export const EDUCATION = [
     institution: "Rustamji Institute of Technology, BSF Academy",
     duration: "October 2021-2025",
     description:
-      "Focused on web development, C++. Actively involved in college clubs, where I developed several web applications using HTML, CSS, JavaScript.My current CGPA is 8.49 ",
+      "Graduated with a CGPA of 8.52. Experienced as a Frontend Developer Instructor at the Innovators Club, with hands-on experience in building MERN Stack applications and strong skills in problem-solving, DSA, and C++.",
   },
   {
     degree: "PCM",
-  institution: "Sister Nivedita Higher Secondary School",
+    institution: "Sister Nivedita Higher Secondary School",
     duration: "October 2019-2020",
     description:
-      "Secured 2nd Rank in district Gwalior with 95%.",
+      "Secured 2nd position in district Gwalior with 95%.",
   }
 ];
 
-
 export const PROJECTS = [
   { id:1,
-    title: "Job Portal",
+    title: "ColouredCow-CareerConnect",
     subtitle:
-      "A full-stack job platform built with React, Node.js, and MongoDB.",
+      "CareerConnect is an in-house hiring dashboard for ColoredCow that streamlines the recruitment process.",
     image: image1,
+    link:"https://coloured-cow-career-connect.vercel.app/",
+    gitLink:"",
   },
   {  id:2,
     title: "Chat-AI",
     subtitle:
       "It's a clone of Chat-GPT built using MERN stack and I have utilized Gemini AI in it.",
     image: image2,
+    link:"https://chat-ai-lyart-eight.vercel.app/",
+    gitLink:"https://github.com/UnnatiSharma7/Chat-AI",
   },
- 
+    {  id:3,
+    title: "Todo-App",
+    subtitle:
+      "It allows users to create, manage, and categorize tasks. Users can add tasks, set their priority, and classify them as either Indoor or Outdoor tasks.",
+    image: image3,
+    link:"https://todo-app-dqm8.vercel.app/",
+    gitLink:"https://github.com/UnnatiSharma7/Todo-App",
+  },
 ];
 
 export const BIO = [
-  "Hello! I'm Unnati Sharma, a Computer Science Engineering undergraduate from RJIT, Taknepur. I have a strong passion for technology and innovation, which has driven me to work on various projects and actively participate in extracurricular activities throughout my academic journey.",
+  "I'm Unnati Sharma, a 2025 B.Tech Graduate in Computer Science & Engineering from RJIT and a Fullstack Developer specializing in the MERN Stack. I am passionate about building scalable, impactful solutions and enjoy transforming ideas into real-world applications that are both meaningful and efficient",
   
- " In addition to my academic projects, I have been an active member of the Innovators Club at my college. In this role, I have conducted several lectures on front-end technologies for junior students, helping them understand and apply the latest trends and best practices in web development.",
+  "Apart from development, I love solving Data Structures & Algorithms (DSA) problems on platforms like LeetCode and GeeksforGeeks, which constantly sharpen my problem-solving mindset.",
   
-  "Furthermore, I have had the opportunity to be a guest lecturer at the BSF Academy, where I educated BSF personnel on the importance of hackathons. I emphasized how participating in hackathons can enhance problem-solving skills, encourage teamwork, and foster innovative thinking, which are crucial in their professional development.",
-  
- " Academically, I have also achieved notable success. I secured the 2nd rank in my district, Gwalior, in my 12th board examination. At RJIT, I am proud to be among the top performers in the CSE wing, reflecting my dedication and commitment to my studies.",
-  
-  "Outside of academics and technology, I have a deep interest in reading the Shrimad Bhagavad Gita and practicing meditation. These hobbies help me maintain a balanced and focused mindset, providing a source of spiritual growth and inner peace.",
-  "Overall, I am a proactive and enthusiastic individual, constantly seeking to learn and grow in the field of computer science and technology. My experiences have equipped me with a solid foundation in both theoretical knowledge and practical application, preparing me well for future challenges and opportunities in the tech industry."
+ "I also have a vision of building AI-powered solutions and creating web applications that address real-world societal problems. Crafting technology that makes life easier and more productive truly excites me.",
+
+  "Outside the tech world, I find balance through meditation, breathing practices (pranayama), yoga, and singing. I also enjoy listening to devotional hymns, which bring me peace and inspiration.",
+  "I aspire to contribute my knowledge, skills, and expertise to a reputed organization whose vision aligns with my objective of building impactful technological solutions. My goal is to leverage technology to address real-world challenges, improve the quality of life, and make society healthier and happier—while continuously growing as a software developer in my career.",
+  "I am eager to collaborate on innovative projects and open to exciting opportunities that challenge my creativity and technical expertise."
 ];
 
 export const SKILLS = [
@@ -96,6 +107,10 @@ export const SKILLS = [
   {
     icon: <RiJavascriptFill className="text-4xl lg:text-6xl text-sky-700" />,
     name: "JavaScript",
+  },
+    {
+    icon: SiCplusplus({ className: "text-4xl lg:text-6xl text-blue-600" }),
+    name: "C++",
   },
 ];
 

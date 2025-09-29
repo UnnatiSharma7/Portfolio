@@ -18,7 +18,7 @@ const Bio = () => {
                 initial={{opacity:0,x:-20}}
                 whileInView={{opacity:1,x:0}}
                 transition={{duratoin:0.8,delay:index*0.5}}
-                key={index} className="mb-4 text-lg lg:text-xl">
+                key={index} className="mb-4 text-md lg:text-lg">
                     {bio}
                 </motion.p>
             ))}
