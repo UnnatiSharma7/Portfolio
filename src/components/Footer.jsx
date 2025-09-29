@@ -1,6 +1,5 @@
-import React from 'react'
 import logo from '../assets/unnati2.png'
-import { SOCIAL_MEDIA_LINKS } from '../constants'
+import { SOCIAL_MEDIA_LINKS } from '../constants/Index.jsx'
 import {motion} from 'framer-motion'
 
 

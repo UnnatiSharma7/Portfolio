@@ -1,4 +1,3 @@
-import React from 'react'
 import emailjs from '@emailjs/browser'
 import {useState} from 'react'
 import { Toaster ,toast} from 'react-hot-toast'
@@ -66,7 +65,7 @@ const Contact = () => {
     <div className="p-4 lg:w-3/4 " id="contact">
         <Toaster></Toaster>
         <h2 className="my-8 text-center text-4xl font-semibold
-        tracking-tighter">Let's Connect</h2>
+        tracking-tighter">Let `&apos;` s Connect</h2>
         <motion.form
         initial={{opacity:0}}
         whileInView={{opacity:1}}
@@ -77,7 +76,7 @@ const Contact = () => {
                 <input type="text"
                         id="name"
                         name="name"
-                        val={formData.name}
+                        value={formData.name}
                         placeholder='Name'
                         onChange={handleChange}
                         className="mb-8 w-full appearance-none rounded-lg
@@ -96,7 +95,7 @@ const Contact = () => {
                 <input type="email"
                         id="email"
                         name="email"
-                        val={formData.email}
+                        value={formData.email}
                         placeholder='Email'
                         onChange={handleChange}
                         className="mb-8 w-full appearance-none rounded-lg
@@ -116,7 +115,7 @@ const Contact = () => {
                 <textarea type="text"
                         id="message"
                         name="message"
-                        val={formData.message}
+                        value={formData.message}
                         placeholder='Message'
                         onChange={handleChange}
                         className="mb-8 w-full appearance-none rounded-lg

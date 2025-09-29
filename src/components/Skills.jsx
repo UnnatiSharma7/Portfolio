@@ -1,6 +1,4 @@
-import React from 'react'
-import { SKILLS } from '../constants'
-import { div } from 'framer-motion/client'
+import { SKILLS } from '../constants/Index.js'
 import {motion} from 'framer-motion'
 
 const containerVariants={

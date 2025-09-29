@@ -1,5 +1,4 @@
-import React from 'react'
-import {BIO} from '../constants'
+import {BIO} from '../constants/Index.jsx'
 import {motion} from "framer-motion";
 
 const Bio = () => {

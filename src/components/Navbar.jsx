@@ -1,6 +1,5 @@
-import React from 'react'
 import logo2 from '../assets/unnati2.png'
-import {NAVIGATION_LINKS} from '../constants'
+import {NAVIGATION_LINKS} from '../constants/Index.jsx'
 import {useState} from "react";
 import {FaTimes,FaBars} from 'react-icons/fa'
 
